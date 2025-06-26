@@ -1,0 +1,20 @@
+Feature: Kredi Testi
+  Scenario Outline: Kredi Hesaplama Testi
+
+    Given Ziraat Web Sitesine Git
+    And Cerezi Kapa "<Cerez>"
+    And Menudeki Bireysel Secenegi Uzerine Gelerek Kredileri Sec
+    And Tuketici Kredisi Kismina Tikla
+    And Hesaplama Araci Butonuna Tikla
+    And Sayfayi Asagi Kaydir
+    And Krediyi Sec "<Kredi>"
+    And Sayfayi Asagi Kaydir
+    And Tutari Yaz "<Tutar>"
+    And Vadeyi Yaz "<Vade>"
+    Then Hesapla Butonuna Tikla
+
+    Examples:
+      | Kredi | Tutar | Vade | Cerez |
+      | Tüketici Kredisi | 20000 | 7 | True |
+      | Konut Kredisi | 400000 | 20 | False |
+      | Taşıt Kredisi | 120000 | 20 | False |

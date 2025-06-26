@@ -1,0 +1,18 @@
+{
+  "select-gender": "//*[@text='ERKEK']",
+  "kategoriler-btn": "//*[@text='\uD83D\uDD0D Kategoriler']",
+  "kategori": "//*[@text='Elektronik']",
+  "alt-kategori": "//*[@text='Bilgisayar & Tablet']",
+  "urun-kategori": "//*[@text='Laptop']",
+  "sirala-filtre-alert": "//*[@resource-id='trendyol.com:id/imageViewTooltipClose']",
+  "sirala-btn": "//*[@text='Sırala']",
+  "secilen-siralama": "//*[@text='En Yüksek Fiyat']",
+  "ilk-urun": "(//android.view.ViewGroup[@resource-id=\"trendyol.com:id/constraintLayout\"])[1]",
+  "ikinci-urun": "(//android.view.ViewGroup[@resource-id=\"trendyol.com:id/constraintLayout\"])[2]",
+  "sepete-ekle-btn": "//*[@text='Sepete Ekle']",
+  "geri-btn": "trendyol.com:id/imageview_back",
+  "sepet-btn": "trendyol.com:id/productDetailBasket",
+  "sil-btn": "(//android.widget.ImageButton[@content-desc=\"Ürünü sil\"])[1]",
+  "onay-sil-btn": "//*[@text='Sil']",
+  "sepeti-onayla": "//*[@text='Sepeti Onayla']"
+}

@@ -1,0 +1,14 @@
+# Node
+node_modules/
+
+# Cypress
+cypress/e2e/*
+!cypress/e2e/*.feature
+!cypress/e2e/addToCard/
+
+# VS Code
+.vscode/
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db 
